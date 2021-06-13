@@ -11,14 +11,14 @@ public class I7 implements Procesors {
 
     public String getName() throws FileNotFoundException {
         ArrayList<String> data = new TextReaderArr().getTextOut("I7.txt");
-        return data.get(0);
+        return data.get(1);
     }
     public String getClock() throws FileNotFoundException {
         ArrayList<String> data = new TextReaderArr().getTextOut("I7.txt");
-        return data.get(1);
+        return data.get(2);
     }
     public String getGeneration() throws FileNotFoundException {
         ArrayList<String> data = new TextReaderArr().getTextOut("I7.txt");
-        return data.get(2);
+        return data.get(3);
     }
 }

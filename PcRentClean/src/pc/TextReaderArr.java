@@ -15,7 +15,8 @@ public class TextReaderArr {
         Scanner snak = new Scanner(tekst);
 
         ArrayList<String> print = new ArrayList<String>();
-        for (int i=0;i<4;i++) {
+        int size = snak.nextInt();
+        for (int i=0;i<size;i++) {
             print.add(snak.nextLine());
         }
 
