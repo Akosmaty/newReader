@@ -19,5 +19,10 @@ public class I5 implements Procesors {
     public String getGeneration() throws FileNotFoundException {
         ArrayList<String> data = new TextReaderArr().getTextOut("I5.txt");
         return data.get(3);
+
+    }
+    public String getPrice() throws FileNotFoundException {
+        ArrayList<String> data = new TextReaderArr().getTextOut("I5.txt");
+        return data.get(4);
     }
 }

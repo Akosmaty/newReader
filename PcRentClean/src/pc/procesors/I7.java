@@ -21,4 +21,8 @@ public class I7 implements Procesors {
         ArrayList<String> data = new TextReaderArr().getTextOut("I7.txt");
         return data.get(3);
     }
+    public String getPrice() throws FileNotFoundException {
+        ArrayList<String> data = new TextReaderArr().getTextOut("I7.txt");
+        return data.get(4);
+    }
 }

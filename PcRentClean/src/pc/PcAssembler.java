@@ -20,4 +20,8 @@ public class PcAssembler implements PC {
     public String getGeneration() throws FileNotFoundException{
         return procesors.getGeneration();
     }
-}
+    public String getPrice() throws FileNotFoundException{
+        return procesors.getPrice();
+        }
+    }
+
